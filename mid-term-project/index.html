@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost in Space</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Lost in Space</h1>
+    </header>
+    <div id="story">
+        <p>You awaken from cryosleep to find yourself stranded in space...</p>
+    </div>
+    <div id="choices">
+        <!-- Choice buttons will be dynamically added here -->
+    </div>
+    <div id="image">
+        <!-- Image will be dynamically changed here -->
+    </div>
+    <script src="script.js"></script>
+    <footer>
+        <p>Last updated: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script type="text/javascript">
+         var x = document.lastModified;
+         document.getElementById('lastModified').textContent = x;
+    </script>
+</body>
+</html>
