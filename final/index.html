@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lights Out Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="h1-title">Lights Out</h1>
+    </header>
+
+    <main>
+        <div id="game-container"></div>
+        <button id="solution-btn" onclick="showSolution()">Show Solution</button>
+        <div id="solution">💡</div>
+    </main>
+
+    <footer>
+        <p>Last updated: <span id="lastModified"></span></p>
+    </footer>
+
+    <div id="addendum">
+        <h2><u>Addendum</u></h2>
+        <p><strong>About the Game:</strong> Lights Out is a classic puzzle game featuring a grid of lights that can be toggled on or off. The objective is to turn off all lights, often starting with a random but solvable setup.</p>
+        <p><strong>Design Choices:</strong> The design prioritizes clarity and neutrality to aid user comprehension and maintain objectivity. Simplicity is emphasized to ensure accessible and unbiased content.</p>
+        <p><strong>Challenges & Solutions:</strong> Developing the game involved implementing grid logic, CSS styling, and event handling. Challenges included balancing complexity for a favorable user experience and achieving responsive design. Solutions involved thorough testing, step-by-step enhancements, and openness to user feedback.</p>
+        <p><strong>Insights:</strong> Key takeaways include understanding user behaviors, balancing simplicity and complexity, and the crucial role of user testing. Continuous improvement depends on integrating user feedback and ongoing learning.</p>
+    </div>
+
+    <script type="text/javascript">
+        var lastModified = document.lastModified;
+        document.getElementById('lastModified').textContent = lastModified;
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
