@@ -70,8 +70,7 @@ function toggleCellOnClick(row, col) {
 
     if (checkWin()) {
         gameWon = true;
-        alert('\"You win!\"');
-');
+        alert('You win!');
         renderGame();
     }
 }
